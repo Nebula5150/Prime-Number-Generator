@@ -62,7 +62,7 @@ class primeGenerator{
 $prime = new primeGenerator(300,500);
 //Function returns an array of all prime numbers within selected range
 $range = $prime->getPrimeNumberRange();
-//Function returns an array of set number of random prime numbers within the initiated range
+//Function returns an array of random prime numbers within the initiated range
 //Number of prime numbers required is passed as an argument. NOTE - the amount required; 
 //there must be enough available within the range selected
 $randNumbers = $prime->getRandomPrimes(16);
