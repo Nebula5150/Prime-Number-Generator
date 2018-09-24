@@ -1,5 +1,11 @@
 <?php
-    
+///////////////////////////////////////////////////////////////////////
+// This class is used to generate a list of prime numbers from       //
+// a supplied number range. You can then randomly select a number of //
+// prime numbers from this list.                                     //
+// Tom Scott                                                         //  
+///////////////////////////////////////////////////////////////////////
+
 class primeGenerator{
     
     private $start;
