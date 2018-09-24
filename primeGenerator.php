@@ -7,7 +7,6 @@ class primeGenerator{
     private $modulus;
     private $primeArray = array();
     private $selectedPrimeArray = array();
-    private $qty;
     private $counter = 0;
     private $error = "Not enough prime numbers within the range selected";
     
