@@ -58,7 +58,7 @@ class primeGenerator{
         return $this->selectedPrimeArray;
     }
 }
-//Initiate class with a range, default 1 - 10
+//Initiate class with a range, default 1 - 100
 $prime = new primeGenerator(300,500);
 //Function returns an array of all prime numbers within selected range
 $range = $prime->getPrimeNumberRange();
